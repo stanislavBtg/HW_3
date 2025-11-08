@@ -1,10 +1,330 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <button class="mobile-menu-btn">☰</button>
+            <div class="logo"><img src="images/main_logo.png" height="291" width="593"/></div>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Лента</a>
+                <a href="#" class="nav-link">#Беларусь</a>
+                <a href="#" class="nav-link">Комьюнити</a>
+                <a href="#" class="nav-link">#Ресёрчи</a>
+                <a href="#" class="nav-link">Вы можете все</a>
+                <a href="#" class="nav-link">Adviser</a>
+            </nav>
+
+            <button class="account-btn"><img src="images/account.png" height="81" width="87"/></button>
+        </div>
+
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Новости IT-мира</h1>
+                <p class="hero-subtitle">Наши ссылки</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">Читать новости</button>
+                    <button class="btn btn-secondary">Подписаться</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">300+</span>
+                    <span class="stat-label">новостей</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">авторов</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5k+</span>
+                    <span class="stat-label">читателей</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-news">
+        <div class="container">
+            <h2 class="section-title">Главные новости</h2>
+
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new1.png" height="546" width="742"/>
+                        <span class="news-badge">Новое</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ИИ революционизирует веб-разработку</h3>
+                        <p class="card-excerpt">Новые инструменты на основе искусственного интеллекта позволяют ускорить процесс разработки в 3 раза...</p>
+                        <div class="card-meta">
+                            <span class="date">2 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new2.png" height="760" width="1139"/>
+                        <span class="news-badge trending">Тренд</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Сравнение JavaScript фреймворков 2024</h3>
+                        <p class="card-excerpt">React, Vue или Angular? Подробный анализ производительности и возможностей...</p>
+                        <div class="card-meta">
+                            <span class="date">4 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new3.png" height="760" width="1139"/>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Новые угрозы кибербезопасности</h3>
+                        <p class="card-excerpt">Эксперты предупреждают о новых видах атак на веб-приложения...</p>
+                        <br>
+                        <div class="card-meta">
+                            <span class="date">6 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new4.png" height="786" width="1180"/>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Тренды мобильной разработки 2024</h3>
+                        <p class="card-excerpt">Flutter vs React Native: что выбирают разработчики в этом году...</p>
+                        <div class="card-meta">
+                            <span class="date">8 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-feed-section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="news-feed">
+                    <h2 class="section-title">Последние новости</h2>
+
+                    <div class="news-list">
+                        <article class="news-item">
+                            <div class="item-image">
+                                <img src="images/new5.png" alt="CSS Grid">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">CSS Grid vs Flexbox: полное руководство</h3>
+                                <p class="item-excerpt">Когда использовать Grid, а когда Flexbox? Практические примеры и сравнение производительности...</p>
+                                <div class="item-meta">
+                                    <span class="category">Frontend</span>
+                                    <span class="date">15 октября 2025</span>
+                                    <span class="comments">24 комментария</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <div class="item-image">
+                                <img src="images/new6.png" alt="TypeScript">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">TypeScript 5.4: что нового</h3>
+                                <p class="item-excerpt">Обзор новых возможностей TypeScript - улучшенный вывод типов и новые декораторы...</p>
+                                <div class="item-meta">
+                                    <span class="category">TypeScript</span>
+                                    <span class="date">16 октября 2025</span>
+                                    <span class="comments">18 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <div class="item-image">
+                                <img src="images/new7.png" alt="Базы данных">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">Новые тренды в базах данных 2025</h3>
+                                <p class="item-excerpt">PostgreSQL, MongoDB или новые облачные решения? Анализ рынка баз данных...</p>
+                                <div class="item-meta">
+                                    <span class="category">Базы данных</span>
+                                    <span class="date">17 октября 2025</span>
+                                    <span class="comments">32 комментария</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <div class="item-image">
+                                <img src="images/new8.png" alt="DevOps">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title">DevOps практики для небольших команд</h3>
+                                <p class="item-excerpt">Как настроить CI/CD пайплайн без больших затрат. Практические советы...</p>
+                                <div class="item-meta">
+                                    <span class="category">DevOps</span>
+                                    <span class="date">18 октября 2025</span>
+                                    <span class="comments">15 комментариев</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Популярное</h3>
+                        <div class="popular-list">
+                            <div class="popular-item">
+                                <span class="popular-rank">1</span>
+                                <div class="popular-content">
+                                    <h4>React 18 новые возможности</h4>
+                                    <span class="views">2.5k просмотров</span>
+                                </div>
+                            </div>
+                            <div class="popular-item">
+                                <span class="popular-rank">2</span>
+                                <div class="popular-content">
+                                    <h4>Лучшие VS Code расширения</h4>
+                                    <span class="views">1.8k просмотров</span>
+                                </div>
+                            </div>
+                            <div class="popular-item">
+                                <span class="popular-rank">3</span>
+                                <div class="popular-content">
+                                    <h4>Python vs JavaScript для AI</h4>
+                                    <span class="views">1.5k просмотров</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Ближайшие события</h3>
+                        <div class="events-list">
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <span class="day">20</span>
+                                    <span class="month">Ноя</span>
+                                </div>
+                                <div class="event-content">
+                                    <h4>Minsk CSS Meetup</h4>
+                                    <span class="event-location">Минск, IT-академия</span>
+                                </div>
+                            </div>
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <span class="day">25</span>
+                                    <span class="month">Ноя</span>
+                                </div>
+                                <div class="event-content">
+                                    <h4>JavaScript Conference</h4>
+                                    <span class="event-location">Онлайн</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Популярные теги</h3>
+                        <div class="tags-list">
+                            <span class="tag">#JavaScript</span>
+                            <span class="tag">#React</span>
+                            <span class="tag">#CSS</span>
+                            <span class="tag">#TypeScript</span>
+                            <span class="tag">#Python</span>
+                            <span class="tag">#AI</span>
+                            <span class="tag">#WebDev</span>
+                            <span class="tag">#Mobile</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/main_logo.png" alt="News Logo">
+                    </div>
+                    <p class="footer-description">
+                        Новости из мира IT, технологий и разработки. Будьте в курсе последних событий и трендов.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Telegram</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Быстрые ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Главная</a></li>
+                        <li><a href="news-details.html" class="footer-link">Новости</a></li>
+                        <li><a href="#" class="footer-link">События</a></li>
+                        <li><a href="#" class="footer-link">О нас</a></li>
+                        <li><a href="#" class="footer-link">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Категории</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Frontend</a></li>
+                        <li><a href="#" class="footer-link">Backend</a></li>
+                        <li><a href="#" class="footer-link">Mobile</a></li>
+                        <li><a href="#" class="footer-link">AI/ML</a></li>
+                        <li><a href="#" class="footer-link">DevOps</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Рассылка</h3>
+                    <p class="newsletter-text">Подпишитесь на нашу рассылку чтобы быть в курсе новостей</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Ваш email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 News. Все права защищены.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#" class="footer-bottom-link">Политика конфиденциальности</a>
+                        <a href="#" class="footer-bottom-link">Условия использования</a>
+                        <a href="#" class="footer-bottom-link">Карта сайта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

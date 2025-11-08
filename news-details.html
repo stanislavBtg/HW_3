@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИИ революционизирует веб-разработку</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <button class="mobile-menu-btn">☰</button>
+        <div class="logo"><img src="images/main_logo.png" alt="News Logo"/></div>
+
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Лента</a>
+            <a href="#" class="nav-link">#Беларусь</a>
+            <a href="#" class="nav-link">Комьюнити</a>
+            <a href="#" class="nav-link">#Ресёрчи</a>
+            <a href="#" class="nav-link">Вы можете все</a>
+            <a href="#" class="nav-link">Adviser</a>
+        </nav>
+
+        <button class="account-btn"><img src="images/account.png" alt="Account"/></button>
+    </div>
+</header>
+
+    <main class="main">
+    <article class="news-article">
+        <div class="container">
+            <header class="article-header">
+                <nav class="breadcrumb">
+                    <a href="index.html">Главная</a>
+                    <span class="breadcrumb-separator">/</span>
+                    <a href="#">Frontend</a>
+                    <span class="breadcrumb-separator">/</span>
+                    <span>ИИ в разработке</span>
+                </nav>
+
+                <h1 class="article-title">ИИ революционизирует веб-разработку: новые инструменты ускоряют процесс в 3 раза</h1>
+
+                <div class="article-meta">
+                    <div class="author-info">
+                        <img src="images/face.png" alt="Автор" class="author-avatar">
+                        <div class="author-details">
+                            <span class="author-name">Алексей Петров</span>
+                            <span class="author-role">Senior Frontend Developer</span>
+                        </div>
+                    </div>
+                    <div class="meta-info">
+                        <span class="publish-date">2 ноября 2025</span>
+                        <span class="reading-time">5 мин чтения</span>
+                        <span class="">2.5k просмотров</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="article-hero">
+                <img src="images/news1.jpg" alt="ИИ в веб-разработке">
+                <div class="image-caption">Новые AI-инструменты меняют подход к созданию веб-приложений</div>
+            </div>
+
+            <div class="article-content">
+                <div class="content-wrapper">
+                    <div class="main-content">
+                        <p class="article-intro">Искусственный интеллект продолжает трансформировать индустрию веб-разработки, предлагая инструменты, которые не просто помогают, а кардинально меняют рабочие процессы. Новые решения позволяют разработчикам сосредоточиться на творческих задачах, автоматизируя рутинные процессы.</p>
+
+                        <h2>Автоматическая генерация кода</h2>
+                        <p>Современные AI-системы, такие как GitHub Copilot и Amazon CodeWhisperer, научились понимать контекст и предлагать релевантные фрагменты кода. Это не просто автодополнение — это полноценный ассистент, который может:</p>
+
+                        <ul class="feature-list">
+                            <li>Генерировать компоненты React/Vue на основе описания</li>
+                            <li>Предлагать оптимизации производительности</li>
+                            <li>Находить и исправлять уязвимости безопасности</li>
+                            <li>Создавать тесты для существующего кода</li>
+                        </ul>
+
+                        <div class="code-example">
+                            <h3>Пример AI-генерации компонента</h3>
+                            <pre><code>// Запрос: "Создай React компонент модального окна с кнопкой закрытия"
+function Modal({ isOpen, onClose, children }) {
+    if (!isOpen) return null;
+
+    return React.createElement('div', { className: 'modal-overlay' },
+        React.createElement('div', { className: 'modal-content' },
+            React.createElement('button', {
+                className: 'close-btn',
+                onClick: onClose
+            }, '×'),
+            children
+        )
+    );
+}</code></pre>
+                        </div>
+
+                        <h2>Дизайн-системы и AI</h2>
+                        <p>Инструменты вроде Galileo AI и Uizard используют машинное обучение для преобразования текстовых описаний в готовые дизайн-макеты. Это значительно ускоряет процесс создания прототипов и согласования с заказчиками.</p>
+
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number">67%</span>
+                                <span class="stat-desc">разработчиков отмечают увеличение продуктивности</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">3x</span>
+                                <span class="stat-desc">ускорение создания прототипов</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">45%</span>
+                                <span class="stat-desc">сокращение времени на отладку</span>
+                            </div>
+                        </div>
+
+                        <h2>Будущее веб-разработки</h2>
+                        <p>Эксперты предсказывают, что в ближайшие 2-3 года AI станет неотъемлемой частью workflow каждого разработчика. Вместо замены программистов, AI станет мощным инструментом, который позволит решать более сложные и интересные задачи.</p>
+
+                        <blockquote class="expert-quote">
+                            <p>"AI не заменит разработчиков, но разработчики, использующие AI, заменят тех, кто его игнорирует. Это новый уровень абстракции, похожий на переход от ассемблера к языкам высокого уровня."</p>
+                            <footer>— Мария Иванова, CTO TechInnovations</footer>
+                        </blockquote>
+                    </div>
+
+                    <aside class="table-of-contents">
+                        <h3>Содержание</h3>
+                        <nav class="toc-nav">
+                            <a href="#auto-code" class="toc-link">Автоматическая генерация кода</a>
+                            <a href="#design-systems" class="toc-link">Дизайн-системы и AI</a>
+                            <a href="#future" class="toc-link">Будущее веб-разработки</a>
+                            <a href="#tools" class="toc-link">Лучшие инструменты 2024</a>
+                        </nav>
+                    </aside>
+                </div>
+
+                <section id="tools" class="tools-section">
+                    <h2>Лучшие AI-инструменты для разработчиков в 2025</h2>
+
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <h3>GitHub Copilot</h3>
+                            <p>Интеллектуальное дополнение кода прямо в редакторе</p>
+
+
+                        </div>
+
+                        <div class="tool-card">
+                            <h3>ChatGPT-4</h3>
+                            <p>Универсальный помощник для решения любых задач</p>
+
+
+                        </div>
+
+                        <div class="tool-card">
+                            <h3>Amazon CodeWhisperer</h3>
+                            <p>AI-ассистент с фокусом на безопасность кода</p>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <div class="article-tags">
+                    <span class="tags-label">Теги:</span>
+                    <a href="#" class="tag">#AI</a>
+                    <a href="#" class="tag">#WebDevelopment</a>
+                    <a href="#" class="tag">#JavaScript</a>
+                    <a href="#" class="tag">#React</a>
+                    <a href="#" class="tag">#Frontend</a>
+                </div>
+            </div>
+
+            <footer class="article-footer">
+                <div class="article-actions">
+                    <button class="action-btn like-btn">Like 245</button>
+                    <button class="action-btn share-btn">Поделиться</button>
+                    <button class="action-btn bookmark-btn">В закладки</button>
+                </div>
+
+                <div class="author-full">
+                    <img src="images/face.png" alt="Алексей Петров" class="author-full-avatar">
+                    <div class="author-full-info">
+                        <h3>Об авторе</h3>
+                        <p>Алексей Петров — senior frontend разработчик с 8-летним опытом. Специализируется на React экосистеме и современных подходах к веб-разработке.</p>
+                        <div class="author-social">
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </article>
+    <section class="related-news">
+        <div class="container">
+            <h2 class="section-title">Похожие новости</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new2.png" alt="JavaScript фреймворки">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Сравнение JavaScript фреймворков 2025</h3>
+                        <p class="card-excerpt">React, Vue или Angular? Подробный анализ производительности...</p>
+                        <div class="card-meta">
+                            <span class="date">4 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="images/new3.png" alt="Кибербезопасность">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Новые угрозы кибербезопасности</h3>
+                        <p class="card-excerpt">Эксперты предупреждают о новых видах атак на веб-приложения...</p>
+                        <div class="card-meta">
+                            <span class="date">6 ноября 2025</span>
+                            <a href="news-details.html" class="read-more">Читать</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="images/main_logo.png" alt="News Logo">
+                </div>
+                <p class="footer-description">
+                    Новости из мира IT, технологий и разработки. Будьте в курсе последних событий и трендов.
+                </p>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 News. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
